@@ -11,5 +11,5 @@ public:
         if(temp<INT_MIN||temp>INT_MAX){
             return 0;
         }
-    return temp;  }  
+    return int(temp);  }  
 };
