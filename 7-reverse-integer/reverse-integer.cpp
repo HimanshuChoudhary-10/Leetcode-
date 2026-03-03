@@ -4,7 +4,7 @@ public:
     int reverse(int x) {
        long long temp=0;
         while(x!=0){ 
-        long long a=x%10;
+        int a=x%10;
         x=x/10;
         temp=temp*10+a;
         } 
